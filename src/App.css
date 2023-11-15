@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  flex-direction: column;
+  display: flex;
+  /* width: 80px; */
 }
 
 .App-logo {
@@ -23,9 +26,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.kimani{
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  justify-content: center;
+}
 .App-link {
-  color: #61dafb;
+  color: #fb9961;
 }
 
 @keyframes App-logo-spin {
